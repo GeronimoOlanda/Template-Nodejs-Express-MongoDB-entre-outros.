@@ -1,5 +1,9 @@
 Template padrão para uso em projetos futuros.
 
+### Linguagens Utilizadas:
+* HTML5
+* CSS3
+* JavaScript(ES5, ES6, ES7)
 ### Principais Componentes:
 * Controller
 * Model
@@ -15,3 +19,7 @@ Template padrão para uso em projetos futuros.
 * Ejs
 * Helmet
 * csrf
+* dotenv
+
+# Gerenciador de Pacotes/Arquivos
+* WebPack
