@@ -1,0 +1,29 @@
+<body>
+
+    <section class="container">
+      <h1> 
+        <% if(typeof titulo !== 'undefined') { %> 
+          <%= titulo %>
+  
+        <% } else{ %>
+            Titulo nao enviado
+          <% } %>
+      </h1>
+  
+      <span> <%= numeros %></span><br>
+      <span><%= nome() %></span><br>
+      <span><%= objeto %></span>
+  
+    </section><br><br><br>
+    <form action="/" method="POST">
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+      <div class="input-teste">
+          <label for="pesquisa">pesquisar:</label>
+          <input type="text" name="pesquisar" id="pesquisar">
+          <button type="submit">Pesquisar</button>
+      </div>
+    </form>
+      <script src="./assets/js/bundle.js"></script>
+  
+  </body>
+  </html>

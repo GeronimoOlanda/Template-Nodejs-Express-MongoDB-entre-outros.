@@ -1,0 +1,5 @@
+<%  (if, for, etc...) %> //Para controle de fluxo
+<%= %> // imprime escapando caracteres(mostra)
+<%- %> // imprime escapando caracteres(executa)
+<%# %> //Utilizado para fazer comentarios
+<%-  include('Caminho do arquivo'); %>
