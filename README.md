@@ -16,6 +16,7 @@ Template padrão para uso em projetos futuros.
 * Nodejs
 * ExpressJs
 * Mongoose(Para conexão com o MongoDB)
+* * MongoDB
 * Ejs
 * Helmet
 * csrf
