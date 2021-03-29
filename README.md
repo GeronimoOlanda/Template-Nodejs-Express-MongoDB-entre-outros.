@@ -21,6 +21,7 @@ Template padrão para uso em projetos futuros.
 * Helmet
 * csrf
 * dotenv
+* * Nodemon
 
 ### Gerenciador de Pacotes/Arquivos
 * WebPack
